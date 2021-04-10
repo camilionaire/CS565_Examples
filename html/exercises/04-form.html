@@ -10,6 +10,47 @@
     <main>
       <form action="">
         <!-- Add your code here -->
+        <h1>Form</h1>
+
+        <label
+          ><p>Name: <input type="text" placeholder="Full Name" /></p
+        ></label>
+
+        <label
+          ><p>Email: <input type="email" placeholder="name@pdx.edu" /></p
+        ></label>
+
+        <fieldset>
+          <legend>Favorite Character</legend>
+
+          <input type="radio" name="spongebob" id="sponge" />
+          <label for="sponge">Spongebob</label>
+          <br />
+          <input type="radio" name="sandy" id="sandy" />
+          <label for="sandy">Sandy</label>
+          <br />
+          <input type="radio" name="patrick" id="patrick" />
+          <label for="patrick">Patrick</label>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Are you a fan of the show?</legend>
+          <label>
+            <input type="radio" name="yes" />
+            Yes, I have watched all episodes!
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="no" />
+            No, not really.
+          </label>
+        </fieldset>
+
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" />
       </form>
     </main>
   </body>
